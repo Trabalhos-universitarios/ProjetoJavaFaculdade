@@ -51,3 +51,24 @@ A classe  FolhaPagamento  continuará existind o, porém  passará a fazer uso d
 C ada uma das novas classes dev erá ter um método construtor,  um método que calcul e  o atributo correspondente ao v a lor mensal recebido pelo funcionário  e um método que imprim a  os dados do funcionário (código e valor mensal recebido) . Esses métodos deverão ser chamados a partir do método  main  da classe  FolhaPagamento .    
 O conjunto de funcionários deverá ser representado por meio de dois atributos estáticos  da classe  FolhaPagamento , cada  qual  correspondente a um subconjunto dos funcionários: um atributo para o subconjunto dos funcionários concursados e outro atributo para o subconjunto dos funcionários temporários.  A implementação de cada subconjunto deverá ser feita com uso de alguma classe de biblioteca para armazenam ento de coleção de objetos,  como a classe  ArrayList .  
 Você  construirá um programa orientado a objetos, com  o  uso de classes e instanciação des t as. Com isso, aprenderá a codificar classes com atributos e métodos, a criar objetos de uma classe, a codificar a interação entre objetos por meio de invocação de métodos, além de codificar operações sobre coleções de objetos.  Fique  atento ao princípio de encapsulamento na implementação das classes.
+
+# Etapa 3
+Reimplemente o programa feito na e tapa 2,com a introdução da s classes Funcionario e Dependente.
+A classe Funcionario deve ser criada como uma superclasse das classes FuncionarioConcursado e FuncionarioTemporario.Dessa forma, deverá definir os atributos comuns às subclasses,enquanto cada subclasse deverá implementar a sua versão do método que calcula o valor mensal recebido, uma vez que as fórmulas de cálculo são diferentes para cada tipo de funcionário.
+A classe Dependente deverá ser associada à classe Funcionario, de maneira que um funcionário possa ter de zero a cinco dependentes.Tal associação deve ser implementada por um  atributo d a classe Funcionario, bem como por um método desta que permita ligar um dependente a um funcionário.Ainda,a classe Dependente  possui apenas um atributo  do tipo inteiro  para representar a idade ( em anos) do dependente.
+O cálculo do valor mensal recebido por um funcionário deve levar em consideração também o seu conjunto de dependentes da seguinte maneira: um funcionário concursado tem um acréscimo de R$100,00 para cada dependente com idade igual ou inferior a  21  anos, enquanto um funcionário temporário tem um acréscimo de R$50,00 para cada dependente com idade igual ou inferior a 18 anos.Para que isso seja realizado respeitando o princípio de encapsulamento,deverá ser definido um método na classe  Funcionario que retorn e o número de dependentes do funcionário que estejam no limite de idade (fornecido como parâmetro do método) para fins de acréscimo no valor mensal recebido. Esse novo método deverá ser chamado pelos métodos das subclasses que ca lculam o valor mensal recebido pelo funcionário. Além disso,esse método da classe Funcionario  deverá chamar um método d a classe  Dependente que recebe um valor inteiro como parâmetro e retorna verdadeiro quando a idade do dependete é menor ou igual ao valor fornecido como parâmetro ou falso, caso contrário.
+Para contemplar todas as modificações, o método main da classe FolhaPagamento deverá ser modificado de maneira que, para cada funcionário, seja definido o seu conjunto de dependentes, isto é, além de criar objetos das classes FuncionarioConcursado e FuncionarioTemporario, o método main deverá criar objetos da classe Dependente e ligar cada dependente com o respectivo funcionário. Isso implica que os dados de entrada sejam ampliados com os dados sobre os dependentes de cada funcionário.
+Por exemplo, como feito nas e tapas 1 e 2, o funcionário com código 147, concursado (1), com salário - base de R$4.000,00 e 5 anos de contratação tinha apenas os seguintes dados na entrada:
+147  
+1  
+4000.00  
+5  
+Agora , se esse funcionário tiver dois ( 2 ) dependentes, um com 30 anos e outro com 18 anos,os dados de entrada serão ampliados da seguinte forma:  
+147  
+1  
+4000.00  
+5  
+2  
+30  
+18  
+Você construirá um programa orientado a objetos com o uso de herança entre classes e associação entre duas classes.Com isso, aprenderá a codificar classes genéricas e específicas e, ainda, aprenderá a fazer ligação entre dois objetos.Observe as vanta gens de criar classes genéricas,inclusive com respeito à definição e implementação de associação entre classes.
