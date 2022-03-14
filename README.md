@@ -1,11 +1,10 @@
 # Enunciado do trabalho
 # Etapa 1
-Uma empresa  pública  possui  um conjunto de  funcionários  de dois tipos:  concursados  e  temporários .  Para cada funcionário, independentemente do tipo, sabe-se o seu  salário - base .  Além disso, p ara cada funcionário concursado, sabe-se o número de  anos   decorridos desde a sua   contratação , enquanto, para  cada  funcionário temporário, o número de  meses   total  do  período do seu  contrato.   
-N o fi m  de cada mês,  a empresa  emite um con tracheque para cada funcionário, contendo   o valor total recebid o naquele mês. O valor  mensal  é dado pela soma do  salário - base   e   d a  gratificação .  A gratificação de u m funcionário concursado   é determinada pel o tempo de contratação:  ele  recebe  uma gratificação   mensal  de R$   200,00  para cada ano de contratação .   A de um funcionário temporário  é determinada pelo período  total  do seu contrato:  ele  recebe um a   gratificação   mensal  de R$   15,00 para cada mês de contrato.  
-Implemente uma classe  na linguagem Java ,  denominada  FolhaPagamento ,   que contenha  apenas  o método  main ,   com os seguintes passos:  
-Lê os dados de n (entre 1 e 100) funcionários fornecidos pela entrada padrão (teclado). 
-Calcula o valor mensal recebido por cada funcionário. 
-Imprime na saída padrão (tela) a relação de n funcionários com os correspondentes valores mensais recebidos, apresentando primeiramente todos os concursados e, em seguida, os temporários. 
+Uma empresa pública possui  um conjunto de funcionários de dois tipos: concursados e temporários. Para cada funcionário,independentemente do tipo,sabe-se o seu salário - base.Além disso,para cada funcionário concursado,sabe-se o número de anos decorridos desde a sua contratação,enquanto,para cada funcionário temporário,o número de meses total do  período do seu contrato.   
+No fim  de cada mês,a empresa emite um contracheque para cada funcionário,contendo o valor total recebido naquele mês.O valor mensal é dado pela soma do salário - base e da gratificação.A gratificação de um funcionário concursado é determinada pelo tempo de contratação: ele recebe uma gratificação mensal de R$200,00 para cada ano de contratação.A de um funcionário temporário é determinada pelo período total do seu contrato: ele recebe uma gratificação mensal de R$15,00 para cada mês de contrato.Implemente uma classe na linguagem Java,denominada FolhaPagamento,que contenha apenas o método main,com os seguintes passos:  
+Lê os dados de n (entre 1 e 100) funcionários fornecidos pela entrada padrão (teclado).
+Calcula o valor mensal recebido por cada funcionário.
+Imprime na saída padrão (tela) a relação de n funcionários com os correspondentes valores mensais recebidos, apresentando primeiramente todos os concursados e,em seguida,os temporários.
 Para cada funcionário, devem ser fornecidos os seguintes dados:  
 Código: um valor inteiro (int). 
 Tipo: o valor (int) 1 para funcionário concursado ou o valor 2 para funcionário temporário. 
@@ -36,7 +35,5 @@ Concursados:
 Temporários:  
 304: 1860.00  
  
-Você  construir á  um programa que realiza as três etapas típicas, a saber :  entrada, processa mento  e saída de dados , utilizando comandos sequenciais de uma linguagem de programação orientada a objetos, com expressões, repetição e decisão, e dados estruturados para armazenamento em memória.  
-Ao final, saberá codificar programas baseados em sequências de comandos imperativos e expressões sobre dados de tipos primitivos e estruturas de dados.  
-Para tanto, deverá considerar  os comandos de definição de variáveis simples e estruturadas (vetores e matrizes), sintaxe para definição de expressões algébricas, comando de desvio, comando de repetição, comando para leitura de dados e comando para impressão de dados.  
+Você construir á um programa que realiza as três etapas típicas,a saber : entrada, processa mento e saída de dados,utilizando comandos sequenciais de uma linguagem de programação orientada a objetos, com expressões, repetição e decisão, e dados estruturados para armazenamento em memória.Ao final, saberá codificar programas baseados em sequências de comandos imperativos e expressões sobre dados de tipos primitivos e estruturas de dados.Para tanto, deverá considerar  os comandos de definição de variáveis simples e estruturadas (vetores e matrizes), sintaxe para definição de expressões algébricas, comando de desvio, comando de repetição, comando para leitura de dados e comando para impressão de dados.  
 
