@@ -39,7 +39,7 @@ public class FolhaPagamento {
             input.nextLine();
             while (hasCodigo(funcionarios, codigo)) {
                 System.out.println(color+"31"+"m"+"*********************** # ERRO! # ************************"+color+"m");
-                System.out.println("ESSE CÓDIGO JÁ ESTÁ CADSTRADO DIGITE UM CÓGIGO DIFERENTE ");
+                System.out.println("ESSE CÓDIGO JÁ ESTÁ CADASTRADO DIGITE UM CÓGIGO DIFERENTE ");
                 codigo = input.nextInt();
             }
             //String CSI = "\u001B[";
