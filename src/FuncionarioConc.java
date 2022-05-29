@@ -5,7 +5,7 @@
 public class FuncionarioConc extends Funcionario{
     String color = "\u001B["; // funçãp que permite trocar cor no console
 
-// ssh-keygen -t rsa -b 4096 -C "johnnycarvalhoem@gmail.com"
+
     // atributos como não havia necessidade não foram criados
 
     //construtores
