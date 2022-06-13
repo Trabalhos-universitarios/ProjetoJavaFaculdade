@@ -48,4 +48,7 @@ public class FuncionarioConc extends Funcionario{
         System.out.println();
     }
 
+    
+    
+
 }

@@ -93,4 +93,5 @@ public class Funcionario {
         System.out.println(String.format("Salário base: R$ "+"%.2f", salarioBase)); // formata para duas casas decimais
 
     }
+    
 }
