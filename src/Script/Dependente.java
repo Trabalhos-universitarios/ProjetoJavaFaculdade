@@ -1,3 +1,4 @@
+package Script;
 /**
  * @autor Johnny Carvalho - 18:04
  * @create 20/06/2020

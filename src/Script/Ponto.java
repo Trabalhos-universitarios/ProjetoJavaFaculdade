@@ -1,3 +1,4 @@
+package Script;
 
 // singleton pattern
 

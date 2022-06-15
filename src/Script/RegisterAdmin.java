@@ -1,3 +1,4 @@
+package Script;
 
 public class RegisterAdmin {
     private String login;
