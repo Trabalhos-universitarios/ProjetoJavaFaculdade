@@ -1,6 +1,6 @@
 package Script;
 
-// singleton pattern
+// Design Patterns pattern singleton
 
 public class Ponto {
     

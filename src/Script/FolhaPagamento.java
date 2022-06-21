@@ -54,9 +54,8 @@ public class FolhaPagamento {
             for (int i = 0; i < quantFunc; i++) {
                 System.out.println("\n**** DIGITE OS DADOS DO " + (i + 1) + "º COLABORADOR ****");
 
-                System.out.print("Tipo: ");
-                int tipo = input.nextInt();
-                input.nextLine();
+                System.out.print("Digite 1 para funcionário concursado ou 2 para funcionário temporário: ");
+                int tipo = input.nextInt();input.nextLine();
 
                 /*
                  * nesse ponto, o código que o usuário ira inserir é como se fosse um id ou cpf,
@@ -65,7 +64,7 @@ public class FolhaPagamento {
                  * insistir até o usuário inserir um código que não seja repetido
                  * ou que não exista na lista
                  */
-                System.out.print("Código: ");
+                System.out.print("Digite o código: ");
                 int codigo = input.nextInt();
                 input.nextLine();
                 while (hasCodigo(funcionarios, codigo)) {
